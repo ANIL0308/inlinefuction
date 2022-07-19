@@ -54,9 +54,13 @@ C++ has provided one solution to this problem. In the case of function calling, 
 We cannot provide the inlining to the functions in the following circumstances:
 
 If a function is recursive.
+   
 If a function contains a loop like for, while, do-while loop.
+   
 If a function contains static variables.
+   
 If a function contains a switch or go to statement
+   
 When do we require an inline function?
 
 An inline function can be used in the following scenarios:
